@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+label {
+    margin: 10px 0px 0px 0px;
+}
+
+form {
+    width: 400px;
+    margin: 20px auto;
+}
+
+.nurse-info {
+    display: flex;
+    flex-direction: column;
+    background: #99d8ff23;
+    font-family: poppins;
+    margin: 20px;
+    padding: 20px;
+}
+
+#nprofile {
+    margin: 10px 0px 0px 0px;
+}
+
+.content {
+    /* position: relative; */
+    margin: 20px;
+    padding: 20px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.n-pro-pic,
+/*-- for nurse's pro pic*/
+.d-pro-pic
+
+/*-- for doc's pro pic*/
+    {
+    background: white;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 30px;
+    border: 1px solid #0000005c;
+    cursor: pointer;
+}
+
+.home,
+.div-Lout,
+.div-myPro {
+    background: white;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 30px;
+    border: 1px solid #0000005c;
+    cursor: pointer;
+}
+
+
+#patient-entry {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.f-input {
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 16px;
+    width: auto;
+    height: 18px;
+    padding: 7px 9px;
+    border-radius: 8px;
+    border: 0.5px solid #0000005c;
+    margin-bottom: 0px;
+}
+
+#addedlist,
+#addnewp,
+#existingp,
+#addtolist-post,
+#searchExist {
+    background: white;
+    height: 35px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+    align-content: center;
+}
+
+small {
+    margin: 0;
+}
+
+#addedlist{
+    box-shadow: 0px 0px 5px #0000002f;
+    color: #fff;
+    background: #89969e;
+    text-shadow: 0px 0px 8px #0000008e;
+}
+
+#addtolist-post,
+#searchExist {
+    background: white;
+    width: 150px;
+    height: 35px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+    align-content: center;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 5px;
+    margin: 20px 0 0 0;
+}
+
+table,
+th,
+td {
+    border: 1px solid #00000052;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #ffffff;
+    font-weight: 300;
+    text-shadow: 0px 0px 1px #00000052;
+}
+
+#note {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #0000005c;
+    font-size: 15px;
+}
+
+a{
+    cursor: pointer;
+}

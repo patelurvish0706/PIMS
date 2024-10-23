@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIMS: Doctor</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="doctor.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="tit-1">
+            <div id="tit-1-1">PIMS</div>
+            <div id="tit-1-2">Patient<br>Information<br>Management<br>System</div>
+        </div>
+        <div class="btns">
+            <input type="button" id="btn-btn" value="Back" class="home" onclick="history.back()">
+            <input type="button" id="btn-btn" value="Logout" class="div-Lout">
+            <input type="button" id="btn-btn" value="My profile" class="div-myPro">
+        </div>
+    </div>
+    
+    <div class="nurse-info">
+    </div>
+    
+    <div class="content">
+        <div id="patient-entry">
+            <input type="button" class="f-input" id="addedlist" value="Patients' List">
+        </div>
+
+        <div class="p-detail-list">
+            <table>
+                <tr>
+                    <th>Patient Name</th>
+                    <th>Gender</th>
+                    <th>Admit Date-Time</th>
+                    <th>Disease</th>
+                    <th>Doctor Checkup</th>
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>Male</td>
+                    <td>2023-10-01 10:00 AM</td>
+                    <td>Flu</td>
+                    <td><div id="checkPatient">Check</div></td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>Female</td>
+                    <td>2023-10-05 02:30 PM</td>
+                    <td>Asthma</td>
+                    <td>Attended</td>
+
+                </tr>
+                <tr>
+                    <td>Michael Johnson</td> 
+                    <td>Male</td> 
+                    <td>2023-10-10 11:15 AM</td>
+                    <td>Diabetes</td>
+                    <td>Attended</td>
+
+                </tr>
+                <tr>
+                    <td>Emily Davis</td> 
+                    <td>Female</td> 
+                    <td>2023-10-12 09:45 AM</td>
+                    <td>Hypertension</td>
+                    <td>Attended</td>
+                </tr>
+                <tr>
+                    <td>David Wilson</td> 
+                    <td>Male</td> 
+                    <td>2023-10-15 03:20 PM</td>
+                    <td>Allergy</td>
+                    <td>Attended</td>
+                </tr>
+                <tr>
+                    <td>Olivia Brown</td>
+                    <td>Female</td>
+                    <td>2023-10-18 01:10 PM</td>
+                    <td>Arthritis</td>
+                    <td>Attended</td>
+                </tr>
+                <tr>
+                    <td>James Taylor</td>
+                    <td>Male</td>
+                    <td>2023-10-20 08:30 AM</td>
+                    <td>Heart Disease</td>
+                    <td>Attended</td>
+                </tr>
+                <tr>
+                    <td>Sophia Martinez</td> 
+                    <td>Female</td> 
+                    <td>2023-10-22 10:50 AM</td>
+                    <td>Infection</td>
+                    <td>Attended</td>
+                </tr>
+                <tr>
+                    <td>Daniel Anderson</td> 
+                    <td>Male</td> 
+                    <td>2023-10-25 12:00 PM</td>
+                    <td>Kidney Disease</td>
+                    <td>Attended</td>
+                </tr>
+                <tr>
+                    <td>Isabella Thomas</td> 
+                    <td>Female</td> 
+                    <td>2023-10-27 04:00 PM</td>
+                    <td>Pneumonia</td>
+                    <td>Attended</td>
+                </tr>
+            </table>
+        </div> 
+        
+    </div>
+    <div id="copy">&copy;This project is copyrighted by SSIT Students.</div>
+</body>
+<script src="doctor.js"></script>
+
+</html>

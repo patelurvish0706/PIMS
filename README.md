@@ -29,7 +29,9 @@ A simple **frontend-based** web project designed to help healthcare professional
 
 *No server setup is required!* (Static frontend project)
 
-## OR
+**OR**
+
+
 JUST CLICK ON [HERE](https://patelurvish0706.github.io/PIMS/)
 
 ---
